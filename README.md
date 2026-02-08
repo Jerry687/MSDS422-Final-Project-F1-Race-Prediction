@@ -6,9 +6,7 @@ MSDS 422 – Practical Machine Learning
 Northwestern University
 
 ### Team Members
-- **Sara Alsiyat**
-- **Qifan**
-- **Boqi**
+**Sara Alsiyat** - **Qifan** - **Boqi**
 
 ---
 

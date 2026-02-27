@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-02-27T19:50:34.554907",
+  "generated_utc": "2026-02-27T20:44:55.400685",
   "best_single_model": "Random Forest",
   "top3_for_ensemble": [
     "Random Forest",
@@ -22,7 +22,8 @@
     "pr_curves_test.png",
     "roc_curves_test.png",
     "shap_sample.csv",
-    "shap_values.npy"
+    "shap_values.npy",
+    "training_summary.json"
   ],
-  "artifact_dir": "models\\final_project\\random_forest_20260227_195033"
+  "artifact_dir": "models\\final_project\\random_forest_20260227_204454"
 }

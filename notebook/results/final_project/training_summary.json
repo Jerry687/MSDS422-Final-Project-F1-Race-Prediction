@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-02-27T19:50:34.554907",
+  "best_single_model": "Random Forest",
+  "top3_for_ensemble": [
+    "Random Forest",
+    "Gradient Boosting",
+    "MLP"
+  ],
+  "weighted_ensemble_weights": {
+    "Random Forest": 0.3333333333333333,
+    "Gradient Boosting": 0.3333333333333333,
+    "MLP": 0.3333333333333333
+  },
+  "result_files": [
+    "calibration_test.png",
+    "confusion_matrices_test_top4.png",
+    "fastapi_template.py",
+    "model_and_ensemble_comparison_val_test.csv",
+    "model_metrics_all_splits.csv",
+    "permutation_importance_full.csv",
+    "permutation_importance_top20.png",
+    "pr_curves_test.png",
+    "roc_curves_test.png",
+    "shap_sample.csv",
+    "shap_values.npy"
+  ],
+  "artifact_dir": "models\\final_project\\random_forest_20260227_195033"
+}

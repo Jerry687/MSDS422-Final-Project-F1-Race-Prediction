@@ -1,0 +1,59 @@
+{
+  "model_name": "Random Forest",
+  "run_id": "20260227_195033",
+  "trained_utc": "2026-02-27T19:50:34.026524",
+  "selection_metric": "PR AUC",
+  "best_hyperparameters": {
+    "n_estimators": 250,
+    "max_depth": null,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "class_weight": "balanced_subsample"
+  },
+  "train_time_sec": 32.492106914520264,
+  "split_definition": {
+    "train": "year < 2018",
+    "validation": "2018 <= year < 2022",
+    "test": "year >= 2022"
+  },
+  "class_balance": {
+    "train_top10_rate": 0.41341463414634144,
+    "val_top10_rate": 0.5,
+    "test_top10_rate": 0.5003679175864606
+  },
+  "metrics": {
+    "val": {
+      "Model": "Random Forest",
+      "Split": "val",
+      "ROC AUC": 0.8376863283036122,
+      "PR AUC": 0.809886976901038,
+      "F1": 0.7742316784869976,
+      "Precision": 0.7426303854875284,
+      "Recall": 0.808641975308642,
+      "Brier": 0.16482752242861115,
+      "TP": 655,
+      "FP": 227,
+      "TN": 583,
+      "FN": 155
+    },
+    "test": {
+      "Model": "Random Forest",
+      "Split": "test",
+      "ROC AUC": 0.8684484102919519,
+      "PR AUC": 0.8455397555554854,
+      "F1": 0.8037383177570093,
+      "Precision": 0.7862165963431786,
+      "Recall": 0.8220588235294117,
+      "Brier": 0.152476364763406,
+      "TP": 559,
+      "FP": 152,
+      "TN": 527,
+      "FN": 121
+    }
+  },
+  "scaler_saved": false,
+  "python_version": "3.10.0",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.2.3",
+  "sklearn_version": "1.6.1"
+}
